@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.unice.polytech</OriginalElement>
+  <nodes>
+    <node x="1427.0" y="1063.0">fr.unice.polytech.shop.stocks.StockIngredient</node>
+    <node x="0.0" y="1189.0">fr.unice.polytech.order.command.CommandServeOrder</node>
+    <node x="1142.0" y="0.0">fr.unice.polytech.factory.FactoryFacade</node>
+    <node x="1433.0" y="0.0">fr.unice.polytech.recipe.RecipeBuilder</node>
+    <node x="135.0" y="126.0">fr.unice.polytech.customer.Customer</node>
+    <node x="939.0" y="1333.0">fr.unice.polytech.recipe.item.Dough.DoughType</node>
+    <node x="223.0" y="1521.0">fr.unice.polytech.order.OrderStatus</node>
+    <node x="173.75" y="617.0">fr.unice.polytech.shop.ShopOrdersObserver</node>
+    <node x="745.0" y="0.0">fr.unice.polytech.shop.Shop</node>
+    <node x="1435.5" y="617.0">fr.unice.polytech.recipe.item.Ingredient</node>
+    <node x="644.0" y="1521.0">fr.unice.polytech.order.OrderItem</node>
+    <node x="750.0" y="1189.0">fr.unice.polytech.order.command.CommandValidateOrder</node>
+    <node x="1162.0" y="1521.0">fr.unice.polytech.marceleat.MarcelEat</node>
+    <node x="1610.0" y="1333.0">fr.unice.polytech.recipe.CookingType</node>
+    <node x="450.0" y="1333.0">fr.unice.polytech.recipe.item.Topping.ToppingType</node>
+    <node x="1224.0" y="744.0">fr.unice.polytech.recipe.item.Dough</node>
+    <node x="809.0" y="1521.0">fr.unice.polytech.shop.ShopPrepareOrders</node>
+    <node x="378.5" y="1063.0">fr.unice.polytech.order.command.Command</node>
+    <node x="405.0" y="126.0">fr.unice.polytech.factory.Employee</node>
+    <node x="945.0" y="617.0">fr.unice.polytech.recipe.Recipe</node>
+    <node x="1003.0" y="1063.0">fr.unice.polytech.shop.ShopValidateOrders</node>
+    <node x="0.0" y="721.0">fr.unice.polytech.tools.Analytics</node>
+    <node x="1416.0" y="744.0">fr.unice.polytech.recipe.item.Flavour</node>
+    <node x="424.0" y="1167.0">fr.unice.polytech.order.command.CommandPlaceOrder</node>
+    <node x="1670.0" y="1063.0">fr.unice.polytech.tools.Analytic</node>
+    <node x="1608.0" y="744.0">fr.unice.polytech.recipe.item.Topping</node>
+    <node x="221.0" y="1333.0">fr.unice.polytech.tools.Position</node>
+    <node x="-16.64898419864562" y="425.3002257336343">fr.unice.polytech.customer.Guest</node>
+    <node x="697.0" y="1333.0">fr.unice.polytech.recipe.item.Flavour.FlavourType</node>
+    <node x="0.0" y="1521.0">fr.unice.polytech.recipe.MixType</node>
+    <node x="332.25" y="0.0">fr.unice.polytech.order.Invoker</node>
+    <node x="270.0" y="385.0">fr.unice.polytech.customer.User</node>
+    <node x="664.0" y="617.0">fr.unice.polytech.order.Order</node>
+    <node x="1178.0" y="1333.0">fr.unice.polytech.shop.timesheet.Timesheet</node>
+    <node x="204.0" y="1189.0">fr.unice.polytech.order.command.CommandPrepareOrder</node>
+    <node x="240.0" y="809.5">fr.unice.polytech.shop.stocks.StocksIngredient</node>
+    <node x="0.0" y="1333.0">fr.unice.polytech.recipe.RecipeIngredient</node>
+    <node x="463.0" y="1521.0">fr.unice.polytech.shop.timesheet.DaySchedule</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.unice.polytech.customer.Customer" target="fr.unice.polytech.order.Invoker">
+      <point x="0.0" y="-104.5" />
+      <point x="260.0" y="101.0" />
+      <point x="369.25" y="101.0" />
+      <point x="-37.0" y="38.0" />
+    </edge>
+    <edge source="fr.unice.polytech.recipe.item.Topping" target="fr.unice.polytech.recipe.item.Ingredient">
+      <point x="0.0" y="-60.5" />
+      <point x="1694.0" y="719.0" />
+      <point x="1546.3333333333333" y="719.0" />
+      <point x="44.33333333333326" y="38.5" />
+    </edge>
+    <edge source="fr.unice.polytech.tools.Analytics" target="fr.unice.polytech.shop.ShopOrdersObserver">
+      <point x="0.0" y="-148.5" />
+      <point x="110.0" y="696.0" />
+      <point x="221.75" y="696.0" />
+      <point x="-48.0" y="27.0" />
+    </edge>
+    <edge source="fr.unice.polytech.customer.Guest" target="fr.unice.polytech.customer.Customer">
+      <point x="0.0" y="-49.5" />
+      <point x="125.0" y="360.0" />
+      <point x="197.5" y="360.0" />
+      <point x="-62.5" y="104.5" />
+    </edge>
+    <edge source="fr.unice.polytech.recipe.item.Flavour" target="fr.unice.polytech.recipe.item.Ingredient">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="fr.unice.polytech.order.command.CommandPrepareOrder" target="fr.unice.polytech.order.command.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="304.0" y="1147.0" />
+      <point x="425.0" y="1147.0" />
+      <point x="-15.5" y="27.0" />
+    </edge>
+    <edge source="fr.unice.polytech.recipe.item.Dough" target="fr.unice.polytech.recipe.item.Ingredient">
+      <point x="0.0" y="-60.5" />
+      <point x="1310.0" y="719.0" />
+      <point x="1457.6666666666667" y="719.0" />
+      <point x="-44.33333333333326" y="38.5" />
+    </edge>
+    <edge source="fr.unice.polytech.shop.stocks.StocksIngredient" target="fr.unice.polytech.shop.ShopOrdersObserver">
+      <point x="0.0" y="-60.0" />
+      <point x="429.5" y="696.0" />
+      <point x="317.75" y="696.0" />
+      <point x="48.0" y="27.0" />
+    </edge>
+    <edge source="fr.unice.polytech.order.command.CommandPlaceOrder" target="fr.unice.polytech.order.command.Command">
+      <point x="0.0" y="-60.5" />
+      <point x="577.0" y="1147.0" />
+      <point x="456.0" y="1147.0" />
+      <point x="15.5" y="27.0" />
+    </edge>
+    <edge source="fr.unice.polytech.customer.User" target="fr.unice.polytech.customer.Customer">
+      <point x="0.0" y="-93.5" />
+      <point x="395.0" y="360.0" />
+      <point x="322.5" y="360.0" />
+      <point x="62.5" y="104.5" />
+    </edge>
+    <edge source="fr.unice.polytech.order.command.CommandValidateOrder" target="fr.unice.polytech.order.command.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="854.0" y="1137.0" />
+      <point x="487.0" y="1137.0" />
+      <point x="46.5" y="27.0" />
+    </edge>
+    <edge source="fr.unice.polytech.order.command.CommandServeOrder" target="fr.unice.polytech.order.command.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="92.0" y="1137.0" />
+      <point x="394.0" y="1137.0" />
+      <point x="-46.5" y="27.0" />
+    </edge>
+    <edge source="fr.unice.polytech.factory.Employee" target="fr.unice.polytech.order.Invoker">
+      <point x="0.0" y="-104.5" />
+      <point x="552.5" y="101.0" />
+      <point x="443.25" y="101.0" />
+      <point x="37.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3605857230018304" x="915.0" y="809.5" />
+  <SelectedNodes>
+    <node>fr.unice.polytech.customer.Guest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

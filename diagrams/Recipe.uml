@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.unice.polytech</OriginalElement>
+  <nodes>
+    <node x="280.0" y="80.0">fr.unice.polytech.recipe.item.Dough</node>
+    <node x="248.0" y="190.0">fr.unice.polytech.recipe.RecipeBuilder</node>
+    <node x="388.0" y="80.0">fr.unice.polytech.recipe.item.Topping</node>
+    <node x="260.16666666666663" y="0.0">fr.unice.polytech.recipe.item.Ingredient</node>
+    <node x="512.0" y="80.0">fr.unice.polytech.recipe.MixType</node>
+    <node x="276.0" y="280.0">fr.unice.polytech.recipe.Recipe</node>
+    <node x="0.0" y="80.0">fr.unice.polytech.recipe.CookingType</node>
+    <node x="156.0" y="80.0">fr.unice.polytech.recipe.item.Flavour</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.unice.polytech.recipe.item.Topping" target="fr.unice.polytech.recipe.item.Ingredient">
+      <point x="0.0" y="-15.0" />
+      <point x="440.0" y="55.0" />
+      <point x="366.8333333333333" y="55.0" />
+      <point x="42.66666666666666" y="15.0" />
+    </edge>
+    <edge source="fr.unice.polytech.recipe.item.Flavour" target="fr.unice.polytech.recipe.item.Ingredient">
+      <point x="0.0" y="-15.0" />
+      <point x="208.0" y="55.0" />
+      <point x="281.5" y="55.0" />
+      <point x="-42.66666666666666" y="15.0" />
+    </edge>
+    <edge source="fr.unice.polytech.recipe.item.Dough" target="fr.unice.polytech.recipe.item.Ingredient">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="308.0" y="155.0" />
+  <SelectedNodes>
+    <node>fr.unice.polytech.recipe.item.Dough</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

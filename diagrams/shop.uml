@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.unice.polytech</OriginalElement>
+  <nodes>
+    <node x="249.33333333333337" y="0.0">fr.unice.polytech.shop.ShopOrdersObserver</node>
+    <node x="461.33333333333337" y="0.0">fr.unice.polytech.shop.stocks.StockIngredient</node>
+    <node x="405.75" y="220.0">fr.unice.polytech.shop.Shop</node>
+    <node x="117.33333333333337" y="0.0">fr.unice.polytech.tools.Analytic</node>
+    <node x="0.0" y="80.0">fr.unice.polytech.tools.Position</node>
+    <node x="399.75" y="300.0">fr.unice.polytech.factory.Employee</node>
+    <node x="618.75" y="80.0">fr.unice.polytech.shop.timesheet.Timesheet</node>
+    <node x="416.41666666666674" y="80.0">fr.unice.polytech.shop.stocks.StocksIngredient</node>
+    <node x="132.0" y="80.0">fr.unice.polytech.tools.Analytics</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fr.unice.polytech.shop.stocks.StocksIngredient" target="fr.unice.polytech.shop.ShopOrdersObserver">
+      <point x="-66.0" y="-15.0" />
+      <point x="438.41666666666674" y="55.0" />
+      <point x="409.33333333333337" y="55.0" />
+      <point x="64.0" y="15.0" />
+    </edge>
+    <edge source="fr.unice.polytech.tools.Analytics" target="fr.unice.polytech.shop.ShopOrdersObserver">
+      <point x="45.0" y="-15.0" />
+      <point x="237.0" y="55.0" />
+      <point x="281.33333333333337" y="55.0" />
+      <point x="-64.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="369.5" y="165.0" />
+  <SelectedNodes>
+    <node>fr.unice.polytech.shop.ShopOrdersObserver</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

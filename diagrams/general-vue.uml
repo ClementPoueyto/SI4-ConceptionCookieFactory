@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>fr.unice.polytech</OriginalElement>
+  <nodes>
+    <node x="0.0" y="320.0">fr.unice.polytech.factory.FactoryFacade</node>
+    <node x="169.06428571428572" y="0.0">fr.unice.polytech.recipe.RecipeBuilder</node>
+    <node x="132.8373015873016" y="420.0">fr.unice.polytech.shop.Shop</node>
+    <node x="102.58730158730157" y="160.0">fr.unice.polytech.customer.Customer</node>
+    <node x="234.58730158730157" y="160.0">fr.unice.polytech.order.OrderItem</node>
+    <node x="116.8373015873016" y="500.0">fr.unice.polytech.factory.Employee</node>
+    <node x="153.17142857142858" y="240.0">fr.unice.polytech.order.Order</node>
+    <node x="213.06428571428572" y="80.0">fr.unice.polytech.recipe.Recipe</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="177.5" y="265.0" />
+  <SelectedNodes>
+    <node>fr.unice.polytech.factory.FactoryFacade</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
